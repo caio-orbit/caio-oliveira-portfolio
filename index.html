@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caio Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho com nome e título -->
+    <header id="cabecalho">
+      <h1 class="nome-titulo">Caio Oliveira</h1>
+      <p class="sub-titulo1">Portfólio Pessoal</p>
+    </header>
+
+    <!-- Barra de navegação -->
+    <nav id="nav-links">
+      <ul class="nav-opcoes">
+        <li class="nav-incio"><a href="#inicio">Início</a></li>
+        <li class="nav-sobre"><a href="#sobre">Sobre</a></li>
+        <li class="nav-formacao"><a href="#formacao">Formação</a></li>
+        <li class="nav-portfolio"><a href="#portfolio">Portfólio</a></li>
+        <li class="nav-contato"><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seção principal do site -->
+    <section>
+      <div>
+        <!-- Seção de introdução -->
+        <div id="inicio">
+          <div class="inicio-container">
+            <img
+              src="./assets/profile_pic.jpeg"
+              alt="Foto de Perfil Caio"
+              class="img-perfil"
+            />
+            <div class="texto-inicio">
+              <h1 class="nome-titulo">Caio Oliveira</h1>
+              <p class="sub-titulo">Bem-vindo ao meu portfólio pessoal!</p>
+            </div>
+            <div id="socials-container">
+              <img
+                src="./assets/linkedin.png"
+                alt="Meu perfil no LinkedIn"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/caio-oliveira-ads/'"
+              />
+              <img
+                src="./assets/github.png"
+                alt="Meu perfil no GitHub"
+                class="icon"
+                onclick="location.href='https://github.com/caio-orbit'"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Seção sobre mim -->
+        <div id="sobre">
+          <h1 class="sessao-titulo">Sobre mim</h1>
+          <p class="descricao">
+            Meu nome é Caio Oliveira, sou carioca e tenho 20 anos. Atualmente,
+            me dedico aos estudos em Análise e Desenvolvimento de Sistemas na
+            instituição UNINTER. <br /><br />
+
+            Busco meu desenvolvimento em TI com o objetivo de conquistar uma
+            oportunidade na área, visando aprimorar ainda mais meu conhecimento
+            e obter uma compreensão mais profunda e abrangente. Estou
+            comprometido em aplicar esse conhecimento de maneira estratégica,
+            contribuindo ativamente para o crescimento e alcance de resultados.
+            Escolhi a tecnologia não apenas profissionalmente, mas também
+            pessoalmente, reconhecendo minhas habilidades. Busco ser um
+            desenvolvedor júnior em breve, comprometendo-me a contribuir de
+            forma expressiva para o mercado com toda a minha capacidade e
+            entusiasmo. <br />
+            <br />
+
+            Acredito na troca de conhecimentos entre diferentes áreas. E como
+            profissional com experiência na administração, destaco minhas
+            habilidades analíticas na interpretação, administração e resolução
+            de problemas. Estou em busca de uma oportunidade efetiva, onde
+            pretendo aprofundar meus conhecimentos e contribuir para o
+            crescimento e o alcance de resultados eficazes da equipe.
+            <br /><br />
+          </p>
+        </div>
+
+        <!-- Seção de formação -->
+        <div id="formacao">
+          <h1 class="sessao-titulo">Formação</h1>
+          <p class="sub-titulo">UNINTER</p>
+          <p class="descricao">
+            <ul>
+              <li><strong>CURSO:</strong> Análise e Desenvolvimento de Sistemas</li>
+              <li><strong>Previsão de formatura:</strong> Julho/2026</li>
+            </ul>
+          </p>
+        </div>
+
+        <!-- Seção de portfólio -->
+        <div id="portfolio">
+          <h1 class="sessao-titulo">Portfólio</h1>
+          <div class="projetos-container">
+            <div class="card-projeto">
+              <p class="sub-titulo">Jogo do Número Secreto</p>
+              <img src="./assets/projeto-1.png" alt="" />
+              <p class="descricao">
+                O Jogo do Número Secreto é um jogo simples, mas envolvente, onde o jogador deve adivinhar um número gerado aleatoriamente entre 1 e 10. Após iniciar o jogo, o jogador insere um palpite no campo designado, e o sistema responde se o palpite é maior, menor ou igual ao número gerado. Caso o jogador acerte, o programa informa o sucesso, mostrando também o número de tentativas realizadas até o acerto.
+              </p>
+              <button>
+                <a href="https://www.google.com.br">Ver Projeto</a>
+              </button>
+              <button>
+                <a href="https://github.com/caio-orbit/jogo-do-numero-secreto"
+                  >Repositório</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seção de contatos -->
+        <div id="contato">
+          <h1 class="sessao-titulo">Contatos</h1>
+          <p class="sub-titulo">Entre em contato comigo:</p>
+          <div class="formulario">
+            <form action="">
+              <label for="nome">Seu Nome: </label>
+              <input type="text" id="nome" name="nome" /><br /><br />
+              <label for="email">Seu E-mail: </label>
+              <input type="text" id="email" name="email" /><br /><br />
+              <label for="mensagem">Sua Mensagem: </label>
+              <input type="text" id="mensagem" name="mensagem" /><br /><br />
+              <button>Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
